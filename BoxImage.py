@@ -1,7 +1,7 @@
 import sys
 import os
 import argparse
-import Image
+from PIL import Image
 def box(filename, size):
 	try:
 		img = Image.open(filename)
